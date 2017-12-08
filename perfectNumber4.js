@@ -21,4 +21,18 @@ function perfectNumber4(maxCount){
   }
 }
 
-perfectNumber4(8);
+/**
+ * isPrime1
+ * @param {number} merPrime メルセンヌ素数の疑いのある数
+ * @return {boolean}
+ */
+function isPrime1(merPrime){
+  for(let count = 2; count < merPrime; count++){
+    if(merPrime % count === 0){
+      return false;
+    }
+  }
+  return true;
+}
+
+perfectNumber4(7);
