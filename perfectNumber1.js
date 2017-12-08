@@ -18,4 +18,4 @@ function perfectNumber1(maxNumber){
   }
 }
 
-perfectNumber1(10);
+perfectNumber1(10000);
